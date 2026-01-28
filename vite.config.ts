@@ -5,7 +5,7 @@ import path from 'path'
 
 export default defineConfig(({ command }) => ({
   plugins: [react(), basicSsl()],
-  base: command === 'build' ? '/ralphgui/' : '/', // GitHub Pages repo name
+  base: command === 'build' ? '/grafAR/' : '/', // GitHub Pages repo name
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
